@@ -1,0 +1,13 @@
+Package: CubeR
+Title: Takes the sum of two numbers^3
+Version: 0.0.0.9000
+Authors@R: person("Jacob", "Sanders", email = "jsande66@vols.utk.edu", role = c("aut", "cre"))
+Description: This package takes two numbers (x,y) and cubes them. The cubed numbers are then added together to provide and final number.This function is almost completely useless, but it is helping me learn to create packages in R. The answer of the two summed cubes will be printed.
+Depends: R (>= 3.3.2)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr, rmarkdown,
+    testthat
+VignetteBuilder: knitr

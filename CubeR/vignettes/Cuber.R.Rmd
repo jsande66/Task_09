@@ -1,0 +1,30 @@
+---
+title: "CubeR"
+author: "Jacob Sanders"
+date: "May 4, 2017"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{CubeR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r}
+library(devtools)
+```
+
+CubeR is a simple package that allows the user to take two numbers and  cube them. The resulting numbers will be added together to provide a final sum of the cubes.The final product is the sum of cubes.
+
+```{r}
+devtools::load_all("../R")
+```
+
+##  Example of CubeR
+
+To understand how the 'CubeR' function works, an example of the function is used below. Suppose you are teaching your students how to do take the sum of cubes and you want a quick way to check your math. CubeR allows you to put in two numbers(x,y) and it will provide you an answer. Therefore, no more embarrassing mistakes in front of your students.  
+
+```{r}
+Cuber.R(3,4)
+Cuber.R(1,3)
+
+```
